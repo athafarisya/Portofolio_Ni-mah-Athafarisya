@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a3b;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #2d2d5b;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-buttons .btn.secondary {
+    background-color: transparent;
+    border: 1px solid #ffcc00;
+}
+
+.about-section, .skills-section, .works-section, .clients-section, .contact-section, .footer {
+    padding: 50px 20px;
+}
+
+.about-section h2, .skills-section h2, .works-section h2, .clients-section h2, .contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skills-grid, .works-grid, .clients-grid, .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.work-item, .skill, .client-item, .contact-info, .contact-form {
+    background-color: #333366;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.work-item img {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.work-item h3, .skill h3, .client-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    background-color: #2d2d5b;
+    padding: 20px;
+}
+
+.footer .social-links a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+}
